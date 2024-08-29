@@ -6,7 +6,7 @@ operations.
 This is a list of the provided modules:
 - Option: extend the `Option` type with auxiliary functions
 - Path: datatype to represent Posix paths
-- Result: extend the `Result` type with auxiliary functions
+- Result: extend the ~Result~ type with auxiliary functions
 - String: extensive string manipulation library
 - TestExtensions: provide methods that complements `Nunit.Framework.Assert` 
 * Goals
