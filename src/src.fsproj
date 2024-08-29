@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="string.fs" />
+    <Compile Include="option.fs" />
+    <Compile Include="result.fs" />
+    <Compile Include="native.fs" />
+    <Compile Include="path.fs" />
+    <Compile Include="test_extensions.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Nunit" Version="4.2.1" />
+  </ItemGroup>
+
+</Project>

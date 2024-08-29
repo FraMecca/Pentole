@@ -1,0 +1,22 @@
+* Pentole
+Pentole aims to be a companion to the F# standard library. It consists of
+various extensions to the core library types and additional libraries for common
+operations.
+
+This is a list of the provided modules:
+- Option: extend the `Option` type with auxiliary functions
+- Path: datatype to represent Posix paths
+- Result: extend the `Result` type with auxiliary functions
+- String: extensive string manipulation library
+- TestExtensions: provide methods that complements `Nunit.Framework.Assert` 
+* Goals
+The goals of Pentole are the following:
+- target developers that work with distributed systems
+- avoid OOP
+- use exceptions exclusively when they are the most intuitive approach for the
+  code at hand
+- prefer the ocaml coding style rather than C# Pascal Case oriented style
+- avoid dependencies to other companion libraries `FSharpPlus` and `FSharpx`,
+  thus reimplementing some of their functions verbatim
+- be well documented and tested
+- target GNU/Linux **exclusively**
